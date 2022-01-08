@@ -1,2 +1,7 @@
-Notes on Packages
-- 
+Notes on Packages:
+- don't include java when importing classes from packages that you make
+- compile the file AND package when you want to update it
+- make the class that you want to use public
+- how to compile packages:
+    - first, compile the file(s) in the package
+    - then, do javac -d . file.java to a file in the package
